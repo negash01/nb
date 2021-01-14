@@ -7,7 +7,7 @@ git add README.md
 git commit -m "first commit"
 git branch -M main
 
-git checkout -b new_branch
+git checkout -b new_branch  //to create new branch name new_branch
 
 git remote add origin https://github.com/negash01/nb.git
 git push -u origin main
