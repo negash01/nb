@@ -1,0 +1,20 @@
+to run :
+
+______
+- to install rvm and ruby , curl -sSL https://get.rvm.io | bash -s stable --ruby
+- to install gem , got to Gemfile directory then from command line type , bundle install
+- to install chrome driver,  brew cask install chromedriver
+=====
+-----
+DRIVER=chrome rspec -fd sample_spec/log.rb
+DRIVER=firefox rspec -fd sample_spec/log.rb --format html --out report1.html
+
+upgrade chrome driver:
+
+brew cask upgrade chromedriver
+
+install chrome driver: 
+brew install chromedriver
+
+install firefox driver:
+brew install geckodriver
