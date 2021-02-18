@@ -1,5 +1,5 @@
 require_relative 'helper.rb'
-
+#describe block 
 describe "when user Access java ranch", :type => :request do
   context "when user click on Cattle Drive link" do
     include_context "login"
